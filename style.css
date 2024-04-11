@@ -1,0 +1,148 @@
+body {
+  background: #E5ECF5;
+  color: #1D2434;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  background: no-repeat center/100% url(images/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  color: #1D2434;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #1D7874;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: #1D7874;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #17B890;
+  transition: color 0.3s ease;
+}
+
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+
+.img-rectangle {
+	width: 700px;
+  object-fit: cover;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .img-rectangle {
+  	width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .img-rectangle {
+  	width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .img-rectangle {
+  	width: 200px;
+  }
+}
+
+
+.card-white {
+  background-color: rgba(260,260,260,0.85);
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-rectangle {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0, 1.0);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.btn-blue {
+	background: linear-gradient(to right,#1D2434,#1D7874);
+	color: #E5ECF5;
+	padding: 12px 15px;
+	border-radius: 4px;
+  margin: 200px auto;
+}
+
+.btn-blue:hover {
+	transition: color 0,5s ease-in;
+	color: #17B890;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #1D7874;
+}
+
+.list-inline i:hover {
+	color: #17B890;
+  	transition: color 0,5s ease-in;
+}
+
+#aztlan-photo {
+	height: 500px;
+	object-fit: cover;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+  width: auto;
+}
+
+.credit {
+  font-size: 12px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
